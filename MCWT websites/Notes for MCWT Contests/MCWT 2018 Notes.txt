@@ -1,0 +1,34 @@
+Programming notes:
+
+For pictures:
+
+< name of folder/ filename.filetype alt=.... width=...px/% height=...px/% />
+
+careful with margins 
+
+
+
+
+
+
+
+Uploading notes:
+
+Pictures: Put in seperate folder, copy whole seperate folder into 
+Filezilla
+
+DON'T:
+
+Click on each seperately and upload that way, click on the folder and upload the folder itself
+check website to make sure they work
+
+
+
+
+
+
+
+
+
+
+
