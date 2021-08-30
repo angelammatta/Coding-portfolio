@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Receipt
+comment0.text=\ Mr.\ Emch\ -\ AP\ CS\r\n\tCalculate\ total\ owed,\ assuming\ 8%\ tax\ /\ 15%\ tip\r\n\tExample\ of\ a\ program\ with\ redundant\ expressions.\ \ \ Use\ \r\n\tvariables\ to\ fix.\ \ Fix\ the\ calculations\ mistake(s)\ too.\r\n\tThere\ were\ three\ people\ at\ this\ table,\ and\ they\ all\ want\r\n\tto\ split\ the\ final\ bill\ evenly.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
