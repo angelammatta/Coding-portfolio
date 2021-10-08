@@ -8,33 +8,25 @@ public static void main(String[] args){
   //two scanners to combat the problem 
 Scanner scan = new Scanner(System.in);
 //Scanner scanNum = new Scanner(System.in);
+  
 //Name of uni
 String uniN;
-
 
 //Location of uni
 String uniLoc;
 
-
 //tuition of uni 
 double uniTut;
 
-
 //num of students for uni
 int uniStu;
-
 
 //num of buildings on uni campus 
 int uniBuild;
 
 
-
 // array with all instantiated universties, because the objects are all in an array, they all share the same static variable. 
 University [] uniList = new University[6];
-
-
-
-
 
 System.out.println("Help us create 3 new  universities");
 
@@ -42,11 +34,8 @@ System.out.println("Help us create 3 new  universities");
 //address skipping issue, will skip inputting name the 2nd and 3rd time it loops, edit 1/8/21: skipping issue caused by scanner mistakenly reading the enter key
 // when inputting the tuition as the name, solution: split both into 2 different for loops.
 
-//now this works
 for(int i = 0; i<3;i++){
  
-    
-
    System.out.println("Please enter the number of students attending the university: ");
     uniStu = scan.nextInt();
 
@@ -65,9 +54,9 @@ for(int i = 0; i<3;i++){
 
     uniList[i] =  new University(uniN,uniLoc);
     
-
-
 }
+  
+  
 
 System.out.println("Great! Now enter the other data for the university!");
 
@@ -89,21 +78,10 @@ for(int i = 0; i<3;i++){
      uniList[i].setUniCost(uniTut);
  
  
-   
-     
- 
- 
  }
 
 
-
- System.out.println(" ");
- System.out.println(" ");
- System.out.println(" ");
-
-
-
-
+ System.out.println("\n \n \n ");
 
  University addedUni1 = new University();
  University addedUni2 = new University();
@@ -114,9 +92,6 @@ for(int i = 0; i<3;i++){
 uniList[3]= addedUni1;
 uniList[4]= addedUni2;
 uniList[5]= addedUni3;
-
-
-
 
 
 System.out.println("Printing original array using for-each loop");
@@ -132,6 +107,7 @@ System.out.println(" ");
 }
 
 
+  
 // change tuition cost, initially had previous skipping issue, the last enter used to input the tuition would be read as the new name of the university so 
 //changing tution instead, edit: this fixed the problem.
 
@@ -146,12 +122,10 @@ for(University uni : uniList ){
 
      uni.setUniCost(uniTut);
 
-System.out.println(" ");
-System.out.println(" ");
+System.out.println(" \n \n");
 
 
 }
-
 
 
 
@@ -211,24 +185,8 @@ orgUni.insertUni(addedUni6,insert);
   System.out.println(orgUni);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
 University.selectSort();
-
-                
 
 
 
