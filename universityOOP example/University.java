@@ -20,16 +20,12 @@ public University(){
 
     this("unknown","unknown",0.00,0,0);
 
-
-
 }
 
 //test constructor, sets values when object is not created w/only name and location
 public University(String name, String loc){
 
     this(name,loc,0.00,0,0);
-
-
 
 }
 
@@ -38,7 +34,6 @@ public University(String name, String loc){
 public University(int studentPop, int build, double tut){
 
     this("unknown","unknown",tut,studentPop,build);
-
 
 
 }
@@ -119,7 +114,7 @@ public int getUniTeacher(){
 
 
 
-//accessor 5: returns # of classes university has
+//accessor 8: returns # of classes university has
 public int getUniClass(){
 
     return uniClass;
@@ -333,10 +328,5 @@ public int addUniClass(){
     }
     
 
-
-
-
-
-
- //dont touch this unless you want it to break the class.    
+   
 }
