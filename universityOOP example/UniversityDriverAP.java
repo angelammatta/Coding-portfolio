@@ -32,12 +32,11 @@ uniList[5]= f;
 
 
 int count = 0;
-
+ //prints out every other university 
 for(University uni: uniList){
 
 if(count%2 ==0 && count < uniList.length){
   System.out.println(uni);
-
 
 }
 
@@ -46,8 +45,7 @@ count++;
 }
 
 
-
-
+    //create a new arraylist with all previously made university objects
 ArrayList <University> uniArr = new ArrayList <University>(6);
 
 uniArr.add(0,f);
@@ -71,35 +69,22 @@ int num = 0;
 
 
 
+  //checks how many university objects in arraylist are equal to one unviersity object outside of arraylist   
 while( iter < uniArr.size()){
   
 if(uniArr.get(iter) .equals (other) ){
 
   num++;
   
-
 }
 
-
 iter++;
-
 
 }
 
 
 
 System.out.print("Other is equal is to "+ num+ "objects");
-
-
-
-
-
-
-
-
-
-
-
 
 }
 }
