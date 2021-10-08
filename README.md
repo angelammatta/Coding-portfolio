@@ -1,8 +1,12 @@
 # Coding-portfolio
-This my coding portfolio, where I will keep my projects. It will be everything from websites to freelance projects. I will also be putting everything that I programmed in AP Computer Science Principles in here as well. 
 
+This is my programming portfolio which will contain all of my work from not only AP Computer Science Principles and AP Computer Science A but also from the various college courses 
+that I have taken and some personal proejcts. For AP Computer Science Principles, I used Code.org so please note that the code may only work in their programming environment while I used Java for 
+AP Computer Science A. 
 
-This is to not be edited by anyone else! If you want good examples on the usage of HTML5 and CSS3 to create a website as well as examples of certain projects that will be done as apart of AP Computer Science Principles in Javascript then you have come to the right place. Please do bare in mind that the Javascript was programmed in the Code.org interface as that was used for the AP course I took. 
+My AP Computer Science A teacher had us do a data science project and a machine learning project, which was programmed in Google Colab. 
 
+I will update this as I move forward so stay tuned. Please only use this for educational purposes with proper credit and not in place of schoolwork or any other work 
+that is to submitted as your own. If you are caught plagiarizing then there will be consequences from your school, the College Board or even the
+organization hosting that competition you decided to enter. 
 
-Also I am going to be taking AP Computer Science A and a few coding classes during the summer too. 
