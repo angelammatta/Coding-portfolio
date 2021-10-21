@@ -1,13 +1,13 @@
 public class Product{
 
-
+// price of product, name of product, how much of product is in stock, and what company makes product
 private double price;
 private String company;
 private String name;
 private int quantity;
 
 
-
+//populated constructor
 public Product(double p,String c,String n,int q){
 
 price = p;
@@ -20,11 +20,10 @@ quantity = q;
 
 
 
-
+//get the price of product, name of product, quantity of product ,and company making product 
 public double getPrice(){
 
 return price;
-
 
 }
 
@@ -57,6 +56,7 @@ return company;
 
 
 
+//set the price of product, name of product, quantity of product ,and company making product 
 public void setPrice(double p){
 
 price = p;
@@ -90,35 +90,10 @@ company = c;
 
 
 
-
-
-
 public String toString(){
 
     return "Name: " +name +"\n Quantity: " + quantity+ " \n Price: "+ price+ " \n Company: "+ company; 
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
