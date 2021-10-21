@@ -3,9 +3,10 @@ import java.lang.reflect.Array;
 //beginning of class
 public class OrganizeUniversity{
 
+//array to hold University objects    
 private University [] uni;
 
-//beginning of constructor
+//populated constructor
 public OrganizeUniversity(University a, University b, University c,University d, University e, University f){
 uni = new University[6];
 uni[0] = a;
@@ -16,38 +17,38 @@ uni[4] = e;
 uni[5] = f;
 
 
-//end of constructor
+
 }
 
 
 
 
-public void doubleSize(){//beginning of doubleSize
+    //doubling the size of a the array (original uni obj)
+    
+public void doubleSize(){
 
+    //create new Uni array obj to be used for temp storing
 University [] doubleUni = new University[uni.length * 2];
 
-
-for(int i = 0; i< uni.length;i++){//beginning of 1st loop
+//put all values from original Uni array obj into the temp storing
+for(int i = 0; i< uni.length;i++){
     doubleUni[i]= uni[i];
 
-}// end of 1st loop 
+}
 
-
-
+    //double length for original Uni obj array  
 uni = new University[uni.length*2];
 
-for(int i = 0; i< uni.length;i++){//beginning of 1st loop
+    //put all values from temp storing back into original Uni obj array 
+for(int i = 0; i< uni.length;i++){
     uni[i]= doubleUni[i];
-}// end of 1st loop 
+}
 
 
+}
 
-
-
-
-
-}//end of doubleSize
-
+    
+    //add a Uni obj to the Uni obj array 
 
 public void insertUni(University a, int insertUni){
     uni[insertUni] = a;
@@ -55,29 +56,16 @@ public void insertUni(University a, int insertUni){
 }
 
 
-
-
-
-
-
-
-public String toString(){//Beginning of toString
+public String toString(){
 String uniStr = " ";
 
-    for(University university:uni){//beginning of for each to print
+    for(University university:uni){
         uniStr+= university;
         uniStr+= "\n ";
-        
-       
-        
     
-    }//end of for each to print 
-    
-    
+    } 
+   
     return uniStr;
+}
 
-
-}//end of toString
-
-
-}//end of classs
+}
