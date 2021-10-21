@@ -28,16 +28,14 @@ System.out.println("Comparing Object 3 with Object 4: " + catU.equals(dogU));
 
 //increasing the number of buildings
 
-
 def1.expandUniBuild(10);
 def2.expandUniBuild(15);
 
 System.out.println("Def1 now has " + def1.getUniBuilding() + " buildings.");
 System.out.println("Def2 now has " + def2.getUniBuilding() + " buuildings. ");
 
-
-
-// enrolling and graduating students
+  
+// enrolling and graduating students,(adding and subtracting students)
 
 catU.gradUniPop(15000);
 dogU.enrollUniPop(15000);
@@ -47,7 +45,7 @@ System.out.println("DogU now has " + dogU.getUniPop() + " students.");
 System.out.println("CatU now has " + catU.getUniPop() + " students. ");
 
 
-//hiring teachers  and adding classes based on the student population
+//hiring teachers and adding classes based on the student population, (showing how student population has been programmed to be the determinant of the # of classes and teachers)
 
 System.out.println("DogU now has " + dogU.addUniTeach() + " teachers.");
 System.out.println("CatU now has " + catU.addUniTeach() + " teachers. ");
@@ -63,33 +61,6 @@ System.out.println("CatU now has " + catU.addUniClass() + " classes. ");
 
 //System.out.println("Object 4 made with populated constructor:\n\n" + dogU);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//dont touch these or whole file breaks
 }
 
 }
