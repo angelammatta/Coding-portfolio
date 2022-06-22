@@ -10,3 +10,4 @@ I will update this as I move forward so stay tuned. Please only use this for edu
 that is to submitted as your own. If you are caught plagiarizing then there will be consequences from your school, the College Board or even the
 organization hosting that competition you decided to enter. 
 
+Also each section is set up to be in its own branch for easier viewing. 
