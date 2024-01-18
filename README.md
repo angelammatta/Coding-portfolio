@@ -1,5 +1,21 @@
 # Coding-portfolio
+//ACTUAL DESCRIPTION Updated: January 12th 2024
+My name is Angela Matta, I am a computer science major  at the University of Michigan
 
+
+
+This programming portfolio contains work that is entirely developed myself unless otherwise stated. At this point in time, I will never/have never use AI for development; if that changes in the future, I will disclose that in the README file of the project in question. 
+
+The projects fall under the following categories:
+Data Science
+AI and Machine Learning
+Software Engineering 
+
+At this point in time, the projects in this repository are mostly class work from my high school and college courses. 
+
+
+
+//ORIGINAL DESCRIPTION FOR REFERENCE
 This is my programming portfolio which will contain all of my work from not only AP Computer Science Principles and AP Computer Science A but also from the various college courses 
 that I have taken and some personal proejcts. For AP Computer Science Principles, I used Code.org so please note that the code may only work in their programming environment while I used Java for 
 AP Computer Science A. 
